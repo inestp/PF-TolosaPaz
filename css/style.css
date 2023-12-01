@@ -179,4 +179,9 @@ p {
   align-items: center;
 }
 
+.carousel-inner img {
+  background-position: center;
+  size: small;
+}
+
 /*# sourceMappingURL=style.css.map */
