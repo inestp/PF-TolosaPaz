@@ -1,0 +1,37 @@
+.feat{
+    display:flex;
+    text-align: center;
+    align-items: center;  
+    flex-direction: column; 
+
+}
+
+.feat h4{
+    margin-top: 100px;
+    text-align: center;
+    color: #333;
+    font-size: 20px;
+    
+}
+
+.feat img{
+    margin-top: 40px;
+    object-fit: cover;
+    height: 300px;
+    
+}
+
+.feat .boton{
+
+    text-decoration: none;
+    color: white;
+    background-color: rgb(151, 207, 163);
+    padding: 5px 30px 5px 30px;
+    margin-bottom: 70px;
+   
+    border-radius: 7px;
+}
+
+.feat .boton:hover{
+    background-color: #333;
+}
