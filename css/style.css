@@ -52,6 +52,47 @@ footer a:hover {
   color: #333 !important;
 }
 
+form {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(151, 207, 163);
+  padding: 30px;
+  background-image: url(../img/planta.jpg);
+}
+
+form input {
+  width: 50%;
+  font-size: 20px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid black;
+  margin: 10px;
+}
+
+form input::placeholder {
+  color: #333;
+}
+
+form textarea {
+  width: 50%;
+  font-size: 20px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid black;
+}
+
+form textarea::placeholder {
+  color: rgb(151, 207, 163);
+}
+
+form #enviar {
+  background-color: rgb(151, 207, 163);
+  font-size: 25px;
+  border: 2px solid black;
+  padding: 10px;
+  margin: 10px;
+}
+
 * {
   margin: 0;
   padding: 0;
