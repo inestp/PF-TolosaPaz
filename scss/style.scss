@@ -64,7 +64,9 @@ main{
     @extend .section1;
 }
 
-
+.section3{
+    @extend .section2
+}
 
 
 p{

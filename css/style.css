@@ -249,7 +249,7 @@ main {
    background-position: left;*/
 }
 
-.section1, .section2 .nright {
+.section1, .section2 .nright, .section3 .nright {
   display: flex;
   text-align: center;
   align-items: center;
@@ -258,7 +258,7 @@ main {
   margin-bottom: 20px;
 }
 
-.section1 .boton, .section2 .nright .boton {
+.section1 .boton, .section2 .nright .boton, .section3 .nright .boton {
   text-decoration: none;
   color: white;
   background-color: rgb(151, 207, 163);
@@ -266,16 +266,16 @@ main {
   border-radius: 7px;
 }
 
-.section1 .boton:hover, .section2 .nright .boton:hover {
+.section1 .boton:hover, .section2 .nright .boton:hover, .section3 .nright .boton:hover {
   background-color: #333;
 }
 
-.section2 {
+.section2, .section3 {
   display: flex;
   flex-wrap: nowrap;
 }
 
-.section2 .nleft {
+.section2 .nleft, .section3 .nleft {
   background-image: url(../img/flores.png);
   background-size: cover;
   background-position: center;
