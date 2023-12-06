@@ -56,7 +56,7 @@ background-image: url(../img/bien.jpg.jpg);
 
 
     .galeria{
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(1, 1fr);
     }
 
     .item1{
@@ -100,11 +100,10 @@ background-image: url(../img/bien.jpg.jpg);
 
 }
 
-@media screen and (min-width:600px){
+@media screen and (min-width:400px){
     .galeria{
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: 300px 300px;
-        justify-content: space-evenly;
+        /*justify-content: space-evenly;*/
     }
 }
-
