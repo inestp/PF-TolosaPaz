@@ -47,6 +47,25 @@ main{
 }
     
 
+.section2{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.section2 .nleft{
+    background-image: url(img/flores.png);
+    background-size: cover;
+    background-position: center;
+    height: 330px;
+    width: 100%;
+}
+
+.section2 .nright{
+    @extend .section1;
+}
+
+
+
 
 p{
 background-color: white;
