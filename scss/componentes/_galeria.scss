@@ -30,7 +30,18 @@ background-image: url(../img/flores.png);
 .item4{
 background-image: url(../img/minimal.jpg);
 }
-
+.item5{
+background-image: url(../img/compu.jpg);
+    }
+.item6{
+background-image: url(../img/estudio.jpg);
+}
+.item7{
+background-image: url(../img/notebook.jpg);
+}
+.item8{
+background-image: url(../img/bien.jpg.jpg);
+}
 @media screen and (min-width:480px) {
     .galeria{
         grid-template-columns: repeat (1, fr);

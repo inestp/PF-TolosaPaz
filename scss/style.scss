@@ -86,6 +86,9 @@ display:flex;
     size: small;
 }
 
+.galeria2{
+    @extend .galeria;
+}
 
 
 
