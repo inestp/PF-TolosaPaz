@@ -245,7 +245,7 @@ main {
 }
 
 .section2 .nleft {
-  background-image: url(img/flores.png);
+  background-image: url(../img/flores.png);
   background-size: cover;
   background-position: center;
   height: 330px;
