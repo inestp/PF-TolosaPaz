@@ -23,7 +23,16 @@
     height: 200px;
     width: 100%;
 }
+.card__img2{
+    @extend .card__img;
+    background-image: url(../img/minimal.jpg);
 
+}
+.card__img3{
+    @extend .card__img;
+    background-image: url(../img/compu.jpg);
+
+}
 
 .card__title{
     text-align: center;
