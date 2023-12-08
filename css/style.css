@@ -233,6 +233,62 @@ form #enviar:hover {
   background-color: #333;
 }
 
+.section3 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  background-color: white;
+  padding: 30px;
+  gap: 20px;
+}
+
+.card {
+  width: 350px;
+  background-color: rgb(151, 207, 163);
+  padding: 15px;
+  align-items: center;
+}
+
+.card__img {
+  background-image: url(../img/flores.png);
+  height: 200px;
+  width: 100%;
+}
+
+.card__title {
+  text-align: center;
+  font-size: 28px;
+  color: yellow;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: uppercase;
+}
+
+.card__desc {
+  text-align: center;
+}
+
+.card__btn {
+  background-color: yellow;
+  color: black;
+  text-decoration: none;
+  padding: 10px 30px;
+  display: block;
+  text-align: center;
+}
+
+.card__btn:hover {
+  background-color: red;
+}
+
+.boton {
+  text-decoration: none;
+  color: white;
+  background-color: rgb(151, 207, 163);
+  padding: 5px 30px 5px 30px;
+  margin-bottom: 70px;
+  border-radius: 7px;
+}
+
 * {
   margin: 0;
   padding: 0;
