@@ -19,18 +19,18 @@
 
 
 .card__img{
-    background-image: url(../img/flores.png);
+    background-image: url(../img/nosotros.jpg);
     height: 200px;
     width: 100%;
 }
 .card__img2{
     @extend .card__img;
-    background-image: url(../img/minimal.jpg);
+ 
 
 }
 .card__img3{
     @extend .card__img;
-    background-image: url(../img/compu.jpg);
+    
 
 }
 

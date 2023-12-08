@@ -250,17 +250,9 @@ form #enviar:hover {
 }
 
 .card__img, .card__img3, .card__img2 {
-  background-image: url(../img/flores.png);
+  background-image: url(../img/nosotros.jpg);
   height: 200px;
   width: 100%;
-}
-
-.card__img2 {
-  background-image: url(../img/minimal.jpg);
-}
-
-.card__img3 {
-  background-image: url(../img/compu.jpg);
 }
 
 .card__title {
