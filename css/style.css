@@ -134,7 +134,19 @@ footer a:hover {
   background-image: url(../img/bien.jpg.jpg);
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media only screen and (min-width: 375px) {
+  .galeria, .galeria2 {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4, 100px);
+  }
+}
+@media only screen and (min-width: 480px) {
+  .galeria, .galeria2 {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4, 200px);
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
   .galeria, .galeria2 {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -175,12 +187,6 @@ footer a:hover {
     padding: 40px 20px 40px 20px;
     background-color: rgb(58, 155, 126);
     height: auto;
-  }
-}
-@media screen and (min-width: 375px) {
-  .galeria, .galeria2 {
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(4, 200px);
   }
 }
 @media only screen and (min-width: 1024px) {
@@ -340,6 +346,15 @@ p {
 .carousel-inner img {
   background-position: center;
   size: small;
+}
+
+@media only screen and (min-width: 480px) {
+  .nosotros .nleft {
+    width: 50%;
+  }
+  .nosotros .right {
+    width: 50%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
