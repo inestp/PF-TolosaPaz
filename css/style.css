@@ -26,10 +26,21 @@ body {
 
 h1, h2, h3 {
   color: #333;
-  font-weight: 1000;
   font-size: 30px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bold;
+}
+
+p {
+  background-color: white;
+  height: 200px;
+  width: 300px;
+  overflow: hidden;
+  text-align: center;
+  padding: 70px 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 footer {
@@ -290,18 +301,6 @@ form #enviar:hover {
   background-position: center;
   height: 330px;
   width: 100%;
-}
-
-p {
-  background-color: white;
-  height: 200px;
-  width: 300px;
-  overflow: hidden;
-  text-align: center;
-  padding: 70px 20px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
 }
 
 .carousel-inner img {

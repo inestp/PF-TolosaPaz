@@ -1,5 +1,7 @@
+// BASE 
 @import '../scss/base/base';
 @import '../scss/base/typography';
+// COMPONENTES
 @import '../scss/componentes/footer';
 @import '../scss/componentes/header';
 @import '../scss/componentes/feat';
@@ -52,18 +54,6 @@
 }
 
 
-p{
-background-color: white;
-height: 200px; 
-width: 300px;
-overflow: hidden;
-text-align:center;
-padding: 70px 20px;
-display:flex;
-justify-content: space-around;
-align-items: center;   
-
-}
 
 .carousel-inner img{
     
