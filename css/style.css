@@ -15,11 +15,6 @@ html {
   scroll-behavior: smooth;
 }
 
-html, body {
-  overflow-y: auto;
-  overflow-x: hidden;
-}
-
 body {
   position: relative;
   min-height: 100vh;
@@ -34,7 +29,7 @@ h1, h2, h3 {
 
 p {
   background-color: white;
-  height: 250px;
+  height: 300px;
   width: 300px;
   overflow: hidden;
   text-align: center;
@@ -50,7 +45,7 @@ footer {
   background-color: rgb(151, 207, 163);
   color: white;
   margin-top: 0px;
-  height: 100px;
+  height: 200px;
   padding-top: 20px;
 }
 
@@ -309,11 +304,11 @@ form #enviar:hover {
   background-image: url(../img/escritorio.jpg);
   background-size: cover;
   background-position: center;
-  height: 450px;
+  height: 755px !important;
 }
 
 .nder {
-  padding: 80px;
+  padding: 60px;
 }
 
 .carousel-inner img {
@@ -325,6 +320,18 @@ form #enviar:hover {
   .galeria, .galeria2 {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(4, 200px);
+  }
+  .nizq {
+    background-color: #333;
+    background-image: url(../img/escritorio.jpg);
+    background-size: no repeat 60px;
+    background-position: center;
+    height: 300px;
+  }
+  .nder {
+    padding: 20px;
+    text-align: center;
+    display: block;
   }
 }
 @media only screen and (min-width: 480px) {
@@ -343,6 +350,18 @@ form #enviar:hover {
     padding: 40px 20px 40px 20px;
     background-color: rgb(58, 155, 126);
     height: auto;
+  }
+  .nizq {
+    background-color: #333;
+    background-image: url(../img/escritorio.jpg);
+    background-size: no repeat 60px;
+    background-position: center;
+    height: 300px;
+  }
+  .nder {
+    padding: 20px;
+    text-align: center;
+    display: block;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
