@@ -40,8 +40,8 @@ p {
   text-align: center;
   padding: 70px 20px;
   display: flex;
-  justify-content: space-around;
   align-items: center;
+  font-size: large;
 }
 
 footer {
@@ -57,7 +57,7 @@ footer {
 footer a {
   color: white;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 30px;
   letter-spacing: 15px;
 }
 
