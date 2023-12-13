@@ -1,24 +1,19 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing:border-box;
-    
+html{
+    scroll-behavior: smooth;
+}
+
+html, body {
+    overflow-y:auto;
+    overflow-x: 100vh;
+}
+
+body{
+    position: relative;
+    min-height: 100vh;
 }
 
 main{
     height: auto;
     width: 100%;
     background-color: white;
-}
-
-
-html{
-    scroll-behavior: smooth;
-}
-
-
-
-body{
-    position: relative;
-    min-height: 100vh;
 }

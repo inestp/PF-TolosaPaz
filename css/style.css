@@ -1,8 +1,16 @@
 /** COLORES */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+html {
+  scroll-behavior: smooth;
+}
+
+html, body {
+  overflow-y: auto;
+  overflow-x: 100vh;
+}
+
+body {
+  position: relative;
+  min-height: 100vh;
 }
 
 main {
@@ -11,32 +19,24 @@ main {
   background-color: white;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
-body {
-  position: relative;
-  min-height: 100vh;
-}
-
 h1, h2, h3 {
   color: #333;
-  font-size: 30px;
+  font-size: 28px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bold;
 }
 
 p {
   background-color: white;
-  height: 300px;
+  height: 200px;
   width: 300px;
   overflow: hidden;
   text-align: center;
   padding: 70px 20px;
   display: flex;
+  justify-content: space-around;
   align-items: center;
-  font-size: large;
+  font-size: 18px;
 }
 
 footer {
@@ -332,6 +332,7 @@ form #enviar:hover {
     padding: 20px;
     text-align: center;
     display: block;
+    align-items: center;
   }
 }
 @media only screen and (min-width: 480px) {
@@ -362,6 +363,7 @@ form #enviar:hover {
     padding: 20px;
     text-align: center;
     display: block;
+    align-items: center;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
@@ -406,12 +408,24 @@ form #enviar:hover {
     background-color: rgb(151, 207, 163);
     height: auto;
   }
+  .nder {
+    padding: 20px;
+    text-align: center;
+    display: block;
+    align-items: center;
+  }
 }
 @media only screen and (min-width: 1024px) {
   .galeria, .galeria2 {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 200px 200px;
   }
+}
+.nder {
+  padding: 20px;
+  text-align: center;
+  display: block;
+  align-items: center;
 }
 
 /*# sourceMappingURL=style.css.map */

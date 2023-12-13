@@ -1,21 +1,22 @@
 h1, h2, h3{
     color: $color-black;
     
-    font-size: 30px;
+    font-size: 28px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
 }
 
 p{
-    background-color: white;
-    height: 300px; 
+    background-color: $color-white;
+    height: 200px; 
     width: 300px;
     overflow: hidden;
     text-align:center;
     padding: 70px 20px;
-    display:flex;
+    display: flex;
+    justify-content: space-around;
     align-items: center;  
-    font-size: large;
+    font-size: 18px;;
     
     }
 
