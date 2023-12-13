@@ -60,10 +60,7 @@ main{
 .section2 .nright{
     @extend .section1;
 }
-.nright:hover{
-    transform: scale(-1);
-    
-}
+
 
 p{
 background-color: white;
