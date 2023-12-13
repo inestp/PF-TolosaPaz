@@ -10,7 +10,7 @@
 .feat h4{
     margin-top: 80px;
     text-align: center;
-    color: #333;
+    color: $color-black;
     font-size: 26px;
     
 }
@@ -24,14 +24,14 @@
 
 .feat .boton{
     text-decoration: none;
-    color: white;
-    background-color: rgb(151, 207, 163);
+    color: $color-white;
+    background-color: $color-green;
     padding: 5px 30px 5px 30px;
     margin-bottom: 10px;
     border-radius: 7px;
 }
 
 .feat .boton:hover{
-    background-color: #333;
+    background-color: $color-black;
 }
 

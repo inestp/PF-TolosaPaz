@@ -1,3 +1,4 @@
+/** COLORES */
 * {
   margin: 0;
   padding: 0;
@@ -86,7 +87,7 @@ footer a:hover {
 .navbar-brand {
   font-weight: bold;
   color: white !important;
-  font-size: x-large;
+  font-size: 30px;
   text-align: center;
 }
 

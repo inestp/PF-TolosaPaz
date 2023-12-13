@@ -1,7 +1,7 @@
 form{
     width: 100%;
     height: 100vh;
-    background-color: rgb(151, 207, 163);
+    background-color: $color-green;
     padding-top: 80px;
     background-image: url(../img/planta.jpg);
 
@@ -17,7 +17,7 @@ form input{
 }
 
 form input::placeholder{
-    color:#333;
+    color:$color-black;
 }
 
 form textarea{
@@ -30,11 +30,11 @@ form textarea{
 }
 
 form textarea::placeholder{
-    color:  rgb(151, 207, 163);
+    color: $color-green;
 }
 
 form #enviar{
-    background-color:  rgb(151, 207, 163);
+    background-color: $color-green;
     font-size: 25px;
     border: 2px solid black;
     padding: 10px;
@@ -42,5 +42,5 @@ form #enviar{
 }
 
 form #enviar:hover{
-    background-color: #333;
+    background-color: $color-black;
 }

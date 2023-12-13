@@ -1,5 +1,5 @@
 .navbar{
-    background-color:  rgb(151, 207, 163);
+    background-color: $color-green;
     width: 100%;
     position:absolute;
     z-index: 3;
@@ -9,28 +9,28 @@
 }
 
 .nav-link{
-    color: #333 !important;
+    color: $color-black !important;
     font-size: 24px !important;
     font-weight: bold;
 }
 
 .nav-link:hover{
-    color:white !important;
+    color: $color-white !important;
 }
 
 .navbar-brand{
 font-weight: bold;
-color:  white !important;
-font-size: x-large;
+color: $color-white !important;
+font-size: 30px;
 text-align: center;
 
 }
 
 .navbar-brand span{
-color: #333;
+color: $color-black;
 
 }
 
 .navbar-toggler{
-color: #333 !important;
+color: $color-black !important;
 }

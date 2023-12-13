@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    background-color: white;
+    background-color: $color-white;
     padding: 30px;
     gap: 20px;
 } 
@@ -11,7 +11,7 @@
 .card{
  
     width: 350px;
-    background-color:  rgb(151, 207, 163);
+    background-color: $color-green;
     padding: 15px;
     align-items: center;
 
@@ -37,7 +37,7 @@
 .card__title{
     text-align: center;
     font-size: 28px;
-    color: #333;
+    color: $color-black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 15px;
 }
@@ -45,14 +45,14 @@
 
 .boton{
     text-decoration: none;
-    color: rgb(151, 207, 163);
-    background-color:white;
+    color: $color-green;
+    background-color: $color-white;
     padding: 5px 30px 5px 30px;
     margin-bottom: 50px;
     border-radius: 7px;
 }
 
 .boton:hover{
-background-color: #333;
+background-color: $color-black;
 color:white;
 }
