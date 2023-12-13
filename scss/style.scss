@@ -7,18 +7,6 @@
 @import '../scss/componentes/form';
 @import '../scss/componentes/card';
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing:border-box;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-main{
-    height: auto;
-    width: 100%;
-    background-color: white;
-}
 
 .section1{
     display:flex;
