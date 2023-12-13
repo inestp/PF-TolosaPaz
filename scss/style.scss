@@ -8,6 +8,7 @@
 @import '../scss/componentes/header';
 @import '../scss/componentes/feat';
 @import '../scss/componentes/galeria';
+@import'../scss/componentes/conocenos';
 @import '../scss/componentes/contacto';
 @import '../scss/componentes/form';
 @import '../scss/componentes/card';
@@ -55,6 +56,17 @@
     @extend .section1;
 }
 
+.nizq{
+        background-color: #333;
+        background-image: url(../img/escritorio.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 450px;
+    
+}
+.nder{
+    padding: 80px;
+}
 
 
 .carousel-inner img{

@@ -34,7 +34,7 @@ h1, h2, h3 {
 
 p {
   background-color: white;
-  height: 200px;
+  height: 250px;
   width: 300px;
   overflow: hidden;
   text-align: center;
@@ -302,6 +302,18 @@ form #enviar:hover {
   background-position: center;
   height: 330px;
   width: 100%;
+}
+
+.nizq {
+  background-color: #333;
+  background-image: url(../img/escritorio.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 450px;
+}
+
+.nder {
+  padding: 80px;
 }
 
 .carousel-inner img {
