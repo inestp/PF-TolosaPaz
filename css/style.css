@@ -270,6 +270,10 @@ main {
   width: 100%;
 }
 
+.nright:hover {
+  transform: scale(-1);
+}
+
 p {
   background-color: white;
   height: 200px;
