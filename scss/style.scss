@@ -82,8 +82,8 @@
 /*.row p{
     margin-top: 80px !important;
     margin-left: 120px !important;
-}
-*/
+}*/
+
 @media only screen and (min-width:320px) {
     .galeria{
         grid-template-columns: 1fr 1fr;
@@ -108,7 +108,6 @@
 
 
 }
-
 }
 
 
@@ -138,16 +137,12 @@
 
 }
     .nder{
-        padding: 20px;
+        padding: 20px 100px 20px 0px !important;
         text-align: center;
         align-items: center;
 
 }
-    .row p .nder{
-        margin: 0px 20px 15px 20px !important;
-        padding: 20px 20px !important;
-        align-items: center !important;
-}
+
 
 }
 
@@ -225,6 +220,9 @@
         align-items: center;
 
 }
-    
+    .row p{
+        margin-top: 80px !important;
+        margin-left: 120px !important;
+}
 
 
