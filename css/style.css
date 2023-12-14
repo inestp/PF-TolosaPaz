@@ -307,7 +307,7 @@ form #enviar:hover {
 }
 
 .nder {
-  padding: 60px;
+  padding: 60px 20px 20px 150px !important;
 }
 
 .carousel-inner img {
@@ -315,11 +315,11 @@ form #enviar:hover {
   size: small;
 }
 
-.row p {
-  margin-top: 80px !important;
-  margin-left: 120px !important;
+/*.row p{
+    margin-top: 80px !important;
+    margin-left: 120px !important;
 }
-
+*/
 @media only screen and (min-width: 320px) {
   .galeria, .galeria2 {
     grid-template-columns: 1fr 1fr;
@@ -333,15 +333,13 @@ form #enviar:hover {
     height: 300px;
   }
   .nder {
-    padding: 20px;
+    padding: 20px !important;
     text-align: center;
     display: block;
     align-items: center;
   }
   .row p {
-    margin-top: 40px;
-    margin-left: 10px;
-    align-items: center;
+    margin: 20px 80px 15px 0px !important;
   }
 }
 @media only screen and (min-width: 480px) {
@@ -371,13 +369,12 @@ form #enviar:hover {
   .nder {
     padding: 20px;
     text-align: center;
-    display: block;
     align-items: center;
   }
-  .row p {
-    margin-top: 30px;
-    margin-left: 55px;
-    align-items: center;
+  .row p .nder {
+    margin: 0px 20px 15px 20px !important;
+    padding: 20px 20px !important;
+    align-items: center !important;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
