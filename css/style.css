@@ -341,6 +341,7 @@ form #enviar:hover {
   .row p {
     margin-top: 40px;
     margin-left: 10px;
+    align-items: center;
   }
 }
 @media only screen and (min-width: 480px) {
