@@ -80,8 +80,8 @@
 }
 
 .row p{
-    margin-top: 60px;
-    margin-left: 80px;
+    margin-top: 80px !important;
+    margin-left: 120px !important;
 }
 
 @media only screen and (min-width:320px) {
@@ -98,15 +98,15 @@
     
 }
     .nder{
-    padding: 20px;
-    text-align: center;
-    display: block;
-    align-items: center;
+        padding: 20px;
+        text-align: center;
+        display: block;
+        align-items: center;
 }
-.row p{
-    margin-top: 40px;
-    margin-left: 10px;
-    align-items: center;
+    .row p{
+        margin-top: 40px;
+        margin-left: 10px;
+        align-items: center;
 }
 
 }
@@ -134,15 +134,20 @@
         background-image: url(../img/escritorio.jpg);
         background-size: no repeat 60px;
         background-position: center;
-         height: 300px;
+        height: 300px;
 
 }
-.nder{
+    .nder{
         padding: 20px;
         text-align: center;
         display: block;
         align-items: center;
 
+}
+    .row p{
+        margin-top: 30px;
+        margin-left: 55px;
+        align-items: center;
 }
 
 }
@@ -197,6 +202,11 @@
         display: block;
         align-items: center;
 
+}
+    .row p{
+        margin-top: 40px;
+        margin-left: 10px;
+        align-items: center;
 }
 
 }
