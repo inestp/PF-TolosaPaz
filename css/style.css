@@ -179,7 +179,7 @@ form {
   width: 100%;
   height: 100vh;
   background-color: rgb(151, 207, 163);
-  padding-top: 80px;
+  padding-top: 100px;
   background-image: url(../img/planta.jpg);
 }
 
@@ -212,8 +212,8 @@ form #enviar {
   background-color: rgb(151, 207, 163);
   font-size: 25px;
   border: 2px solid black;
-  padding: 10px;
-  margin: 10px;
+  padding: 0px;
+  margin: 0px;
 }
 
 form #enviar:hover {
@@ -313,6 +313,18 @@ form #enviar:hover {
 .carousel-inner img {
   background-position: center;
   size: small;
+}
+
+.mapa {
+  padding-top: 200px;
+}
+
+.div.col-md-6 {
+  width: 100%;
+}
+
+.container-fluid2 {
+  background-image: url(../img/planta.jpg);
 }
 
 /*.row p{
