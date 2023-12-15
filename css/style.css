@@ -429,6 +429,11 @@ form #enviar:hover {
     align-items: center;
   }
 }
+@media only screen and (min-width: 763px) and (max-width: 1292px) {
+  .col-md-4-feat {
+    column-count: auto;
+  }
+}
 @media only screen and (min-width: 1024px) {
   .galeria, .galeria2 {
     grid-template-columns: repeat(4, 1fr);
