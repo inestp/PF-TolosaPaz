@@ -175,8 +175,24 @@ footer a:hover {
   background-image: url(../img/bien.jpg.jpg);
 }
 
+.nizq {
+  background-color: #333;
+  background-image: url(../img/escritorio.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 755px !important;
+}
+
+.nder {
+  padding: 60px 20px 20px 150px !important;
+}
+
 .container-fluid2 {
   background-image: url(../img/planta.jpg);
+}
+
+.mapa {
+  padding-top: 200px;
 }
 
 form {
@@ -302,34 +318,11 @@ form #enviar:hover {
   width: 100%;
 }
 
-.nizq {
-  background-color: #333;
-  background-image: url(../img/escritorio.jpg);
-  background-size: cover;
-  background-position: center;
-  height: 755px !important;
-}
-
-.nder {
-  padding: 60px 20px 20px 150px !important;
-}
-
 .carousel-inner img {
   background-position: center;
   size: small;
 }
 
-.mapa {
-  padding-top: 200px;
-}
-
-/*.container-fluid2{
-    background-image: url(../img/planta.jpg);
-}*/
-/*.row p{
-    margin-top: 80px !important;
-    margin-left: 120px !important;
-}*/
 @media only screen and (min-width: 320px) {
   .galeria, .galeria2 {
     grid-template-columns: 1fr 1fr;
