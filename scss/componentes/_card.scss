@@ -9,7 +9,6 @@
 
 
 .card{
- 
     width: 350px;
     background-color: $color-green;
     padding: 15px;
@@ -25,8 +24,6 @@
 }
 .card__img2{
     @extend .card__img;
- 
-
 }
 .card__img3{
     @extend .card__img;
