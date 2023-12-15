@@ -175,6 +175,10 @@ footer a:hover {
   background-image: url(../img/bien.jpg.jpg);
 }
 
+.container-fluid2 {
+  background-image: url(../img/planta.jpg);
+}
+
 form {
   width: 100%;
   height: 100vh;
@@ -319,10 +323,9 @@ form #enviar:hover {
   padding-top: 200px;
 }
 
-.container-fluid2 {
-  background-image: url(../img/planta.jpg);
-}
-
+/*.container-fluid2{
+    background-image: url(../img/planta.jpg);
+}*/
 /*.row p{
     margin-top: 80px !important;
     margin-left: 120px !important;
