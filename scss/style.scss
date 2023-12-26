@@ -127,6 +127,13 @@
 
 }
 
+@media only screen and (min-width: 570px) and (max-width:670px){
+    .collapsibleNavbar{
+        display: flexbox;
+        
+    }
+}
+
 
 @media only screen and (min-width:768px) and (max-width: 1023px){
     .galeria{

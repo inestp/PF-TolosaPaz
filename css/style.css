@@ -375,6 +375,11 @@ form #enviar:hover {
     align-items: center;
   }
 }
+@media only screen and (min-width: 570px) and (max-width: 670px) {
+  .collapsibleNavbar {
+    display: flexbox;
+  }
+}
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   .galeria, .galeria2 {
     grid-template-columns: repeat(3, 1fr);
